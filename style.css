@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px;
+    gap: 10px;
+    font-size: 1.2em;
+    width: 200px;
+    justify-content: center;
+    font-weight: 600;
+}
+
+dialog {
+    border-radius: 20px;
+}
+
+.checkbox-area {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+
+input[type="text"] {
+    height: 1.5em;
+    font-size: 1em;
+}
+
+input[type="number"] {
+    height: 1.5em;
+    font-size: 1em;
+}
+
+#close-btn {
+    text-align: end;
+    font-weight: bolder;
+    font-size: 1.3em;
+    margin-top: 5px;
+}
+
+#close-btn:hover {
+    cursor: pointer;
+}
+
+.addBook {
+    width: 5em;
+    height: 2.3em;
+    border-radius: 50px;
+    font-size: 0.9em;
+    align-self: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+}
+
+.openAddForm {
+    width: 8em;
+    height: 4em;
+    font-size: 1.2em;
+    border-radius: 50px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2em;
+    margin-top: 50px;
+}
+
+.book {
+    border: 2px solid black;
+    text-align: center;
+    font-size: 1.4em;
+    padding: 20px;
+    border-radius: 30px;
+    overflow-wrap: break-word;
+}
+
+
+
+.toggleRead {
+    width: 250px;
+    height: 40px;
+    border-radius: 50px;
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
+.delete {
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    font-size: 1em;
+}
